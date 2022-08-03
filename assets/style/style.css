@@ -40,12 +40,17 @@ main {
   /* display: flex;
   flex-wrap: wrap; */
   flex-grow: 1;
-  background-color: red;
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  border: 2px solid black;
 }
 
 /* styling for the contact info aside */
 aside {
-  flex: 1;
+  
   background-color: #b9c6ae;
   padding: 80px;
   text-align: left;
@@ -64,15 +69,12 @@ footer {
 
 /* styling for the project segements */
 .segments {
-  flex: 6;
   background-color: #fff;
-  padding: 50px;
-  display:inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
   border-radius: 15px 50px;
-  width: 50%;
 }
 
 /* styling for the individual cards that hold the images and title of projects */
