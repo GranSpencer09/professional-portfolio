@@ -43,6 +43,7 @@ main {
   display: flex;
 }
 
+/* provides space and structure for the apps, about me and resume */
 .content {
   flex-grow: 1;
   border: 2px solid black;
